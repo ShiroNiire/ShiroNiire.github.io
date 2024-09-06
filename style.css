@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(163, 255, 224);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+
+body{
+img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 24px;
+    color: rgb(195, 110, 238);
+    font-family: cursive;
+}
+
+p{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    color: rgb(83, 11, 130);
+    font-optical-sizing: auto;
+    font-size: 25px;
+}
+#nosotros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+.informacion{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+    background-color: rgb(252, 252, 251)
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+}
